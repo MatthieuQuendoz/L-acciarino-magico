@@ -149,8 +149,10 @@ function manage_boss_weapon(s, player) {
     // Creazione oggetto arma: Fireball
     fireball = PP.assets.sprite.add(s, img_fireball ,boss.geometry.x + offset5, boss.geometry.y - 70, 0.5, 0.5);
     //PP.assets.sprite.animation_add(fireball, "attack", 1, 1, 1, 0);
-    PP.assets.sprite.animation_add(fireball, "die", 0, 0, 5, 1);
-    PP.assets.sprite.animation_play(fireball, "die");
+    //PP.assets.sprite.animation_add(fireball, "die", 0, 0, 5, 1);
+    PP.assets.sprite.animation_add_list(fireball, "lancia", [0,1,2,3,4,3,2,1], 5, -1);
+
+    PP.assets.sprite.animation_play(fireball, "lancia");
 
 
     // Specchio img arma (default: dx)
