@@ -1,7 +1,7 @@
 let img_boss;
 let boss;
-let img_fireball
-let fireball
+let img_fireball;
+let fireball;
 
 function preload_boss(s) {
     // Caricamento assets grafici
@@ -150,9 +150,8 @@ function manage_boss_weapon(s, player) {
     fireball = PP.assets.sprite.add(s, img_fireball ,boss.geometry.x + offset5, boss.geometry.y - 70, 0.5, 0.5);
     //PP.assets.sprite.animation_add(fireball, "attack", 1, 1, 1, 0);
     //PP.assets.sprite.animation_add(fireball, "die", 0, 0, 5, 1);
-    PP.assets.sprite.animation_add_list(fireball, "lancia", [0,1,2,3,4,3,2,1], 5, -1);
-
-    PP.assets.sprite.animation_play(fireball, "lancia");
+    //PP.assets.sprite.animation_add_list(fireball, "lancia", [0,1,2,3,4,3,2,1], 5, -1);
+    //PP.assets.sprite.animation_play(fireball, "lancia");
 
 
     // Specchio img arma (default: dx)
