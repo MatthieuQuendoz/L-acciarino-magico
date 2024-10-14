@@ -60,7 +60,7 @@ function create(s) {
     // -----------------------------------------------------------------------------------------------------
     
     // Lista spawn giocatore
-    player = PP.assets.sprite.add(s, img_player, 400, 620, 0.5, 1);
+    //player = PP.assets.sprite.add(s, img_player, 400, 620, 0.5, 1);
     //player = PP.assets.sprite.add(s, img_player, 2700, 620, 0.5, 1);
     
     //Set spawn del giocatore: Livello_01 intermezzo
@@ -75,7 +75,7 @@ function create(s) {
     //player = PP.assets.sprite.add(s, img_player, 1700, 4489, 0.5, 1);
 
     //Set spawn del giocatore: Livello_02
-    //player = PP.assets.sprite.add(s, img_player, 5100, 4489, 0.5, 1);
+    player = PP.assets.sprite.add(s, img_player, 5100, 4489, 0.5, 1);
     //player = PP.assets.sprite.add(s, img_player, 6300, 4489, 0.5, 1);
 
     //Set spawn del giocatore: Livello_03 
