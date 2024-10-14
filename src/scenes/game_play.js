@@ -75,11 +75,11 @@ function create(s) {
     //player = PP.assets.sprite.add(s, img_player, 1700, 4489, 0.5, 1);
 
     //Set spawn del giocatore: Livello_02
-    player = PP.assets.sprite.add(s, img_player, 5100, 4489, 0.5, 1);
+    //player = PP.assets.sprite.add(s, img_player, 5100, 4489, 0.5, 1);
     //player = PP.assets.sprite.add(s, img_player, 6300, 4489, 0.5, 1);
 
     //Set spawn del giocatore: Livello_03 
-    //player = PP.assets.sprite.add(s, img_player, 13200, 4489, 0.5, 1);
+    player = PP.assets.sprite.add(s, img_player, 13200, 4489, 0.5, 1);
     //player = PP.assets.sprite.add(s, img_player, 17200, 3900, 0.5, 1);
 
 
