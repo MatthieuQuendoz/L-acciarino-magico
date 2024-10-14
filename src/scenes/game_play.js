@@ -14,7 +14,7 @@ function preload(s) {
     // Caricamento assets grafici
     //img_background = PP.assets.image.load(s, "assets/background/background_Lv01.png");
     img_background = PP.assets.image.load(s, "assets/background/mappa02.png");
-    img_background_villaggio = PP.assets.image.load(s, "assets/background/village.png");
+    //img_background_villaggio = PP.assets.image.load(s, "assets/background/village.png");
     img_player     = PP.assets.sprite.load_spritesheet(s, "assets/entities/ss_player.png", 484, 462);
 
 
