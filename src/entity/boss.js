@@ -1,5 +1,6 @@
 let img_boss;
 let boss;
+let img_fireball
 let fireball
 
 function preload_boss(s) {
@@ -148,7 +149,7 @@ function manage_boss_weapon(s, player) {
     // Creazione oggetto arma: Fireball
     fireball = PP.assets.sprite.add(s, img_fireball ,boss.geometry.x + offset5, boss.geometry.y - 70, 0.5, 0.5);
     PP.assets.sprite.animation_add(fireball, "attack", 1, 3, 5, -1);
-    PP.assets.sprite.animation_add(fireball, "die", 0, 11, 5, 1);
+    PP.assets.sprite.animation_add(fireball, "die", 0, 0, 5, 1);
     PP.assets.sprite.animation_play(fireball, "attack");
 
 
